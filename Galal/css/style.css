@@ -1,0 +1,49 @@
+body
+{
+    font-family: 'Cookie', cursive;
+}
+
+.nav
+{
+    font-family: normal;
+}
+
+header .content
+{
+    background-image: url(../imeges/taste.jpg);
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    padding-left: 15px;
+}
+
+.content .content-header
+{
+    position: relative;
+    top: 50%;
+    left: 0;
+}
+
+.content .content-header h2
+{
+    color: #eee;
+    font-size: 74px;
+}
+
+.content .content-header p
+{
+    color: #fff;
+    font-size: 24px;
+    word-spacing: 3px;
+    line-height: 1.8;
+}
+.navbar .link-logo
+{
+    position:relative;
+    left: 15%;
+}
+
+.navbar-light
+{
+    background-color: #FFF !important;
+}
