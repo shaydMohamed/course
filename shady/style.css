@@ -1,0 +1,553 @@
+*{margin: 0;padding: 0}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.navbar {
+    position: relative;
+    height:90%;
+    background-image: url(img/12.jpg);
+    background-size: cover;
+}
+/*.navbar h1{
+    position: absolute;
+    left: 45%;
+    text-transform: capitalize;
+    font-family: gabriola;
+    font-weight:100;
+}*/
+.navbar ul{
+    position: absolute;
+    width:20%;
+    top: 10%;
+    background:rgba(0,0,0,0.4);
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.navbar ul li{
+    padding:10px 0;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-family:system-ui;
+    padding-left: 30px;
+    font-weight: 100;
+}
+.navbar li:hover{
+    cursor: pointer;
+    background:rgba(0,0,0,0.5);
+}
+.navbar .note{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-family: Gabriola;
+}
+.navbar .note h1{
+    font-size: 40px;
+}
+.navbar .note p{
+    line-height: 1.5;
+    font-size: 18px;
+    color: #e0d3bc; 
+    padding: 5px;
+    margin-right: 20px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px
+}
+/*---------------------------------*/
+.section {
+    overflow: hidden;
+    padding-top: 20px;    
+}
+.section .left {
+    width: 40%;
+    float: left;
+    margin-bottom: 40px;
+    padding-bottom: 20px
+}
+.section .left h2{
+    font-family: Gabriola;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.section .left p{
+    font-size: 25px;
+    font-family: gabriola;
+    line-height: 1.5;
+    margin-top: -10px;
+    text-align: justify;
+}
+.section .left button{
+    text-align: center;
+    padding: 0px 5px;
+    display: block;
+    margin-top: 5px;
+    background-color:#eee;
+    border:1px solid #999 ;
+    text-transform:capitalize;
+    font-size: 18px;
+    font-family:Gabriola;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 0px;
+}
+/*----*/
+.clear{clear: both}
+.section .photo{
+    width: 60%;
+    float: right
+}
+.section .photo img{
+    width: 90%;
+    height: 350px;
+    margin-left: 70px;
+    border-radius: 10px;
+    border: 2px solid #eee
+}
+/*--*/
+.section .left2 {
+    width: 40%;
+    float: right;
+}
+.section .left2 h2{
+    font-family: Gabriola;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-top: -15px
+}
+.section .left2 p{
+    font-size: 25px;
+    font-family: gabriola;
+    line-height: 1.5;
+    margin-top: -10px;
+    text-align: justify;
+}
+.section .left2 button{
+    text-align: center;
+    padding: 0px 5px;
+    display: block;
+    margin-top: 5px;
+    background-color:#eee;
+    border:1px solid #999 ;
+    text-transform:capitalize;
+    font-size: 18px;
+    font-family:Gabriola;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 0px;
+}
+
+/*-*/
+.section .photo2{
+    width: 60%;
+    float: left;
+    margin-bottom: 40px;
+    padding-bottom: 20px
+}
+.section .photo2 img{
+    width: 90%;
+    height: 350px;
+    border-radius: 10px;
+    border: 2px solid #eee
+}
+/*-------------------------------------*/
+.skill{
+    overflow: hidden;
+    border-top: 10px solid grey
+}
+.skill .titile, .team .words{
+    padding-top: 20px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.skill .titile h2, .team .words h2{
+    font-family: Gabriola;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #666;
+}
+.skill .titile p, .team .words p{
+    font-family: gabriola;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.6;
+    margin-top: -10px;
+}
+/*--------progress----------*/
+.skill .progress .name{
+    overflow: hidden;
+    float: left;
+    width: 40%;
+    margin: 10px 60px;
+}
+.skill .progress .name div{
+     background-color:gray;
+     height:22px;
+    margin-top: -10px;
+}
+.skill .progress .name h2{
+    color:#666;
+    text-transform: capitalize;
+    font-family: Gabriola
+}
+.skill .progress .name span{
+    background:black;
+    height: 22px;
+    display: block;
+    text-align: right;
+    line-height: 22px;
+    color: white;
+}
+/*----------------------------*/
+
+.color{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    background-color:#afaaaa;
+    overflow: hidden;
+    border-radius: 10px
+}
+.color .items {
+    margin: 0 auto;
+    margin-left: 60px;
+    width: 20%;
+    float: left;
+}
+.color .items .logo i {
+    width: 15%;
+    text-align: center;
+    float: left;
+    order: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px
+}
+.color .items .note{
+    float: left;
+    margin: -5px 20px;
+    color: white;
+}
+.color .items .note h3{
+    font-size: 27px;
+    font-family: system-ui;
+    padding-top:-20px;
+}
+.color .items .note p{
+    font-family: Gabriola;
+    font-size: 20px;
+    margin-top: -5px
+}
+/*----------------------------------*/
+
+.team{
+    overflow: hidden;
+    background-color:#eee;
+    padding-bottom: 50px;
+    margin-bottom: 50px
+}
+.team .threepart{
+    width: 30%;
+    padding-top: 50px;
+    float: left;
+    margin: 0 20px
+}
+.team .threepart i{
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.team .threepart p{
+    font-family: gabriola;
+    font-size: 20px;
+    text-align: center;
+}
+.team .threepart .info{
+    width:60%;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px
+}
+.team .threepart .info img{
+    float: left;
+    border-radius: 50px;
+    border: 2px solid grey
+}
+.team .threepart .info h3, .team .threepart .info p {
+    text-align:inherit;
+}
+.team .threepart .info h3{
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-family: system-ui
+}
+/*-------------------------------------*/
+
+.menue{
+    width: 1200px;
+    margin: 0 auto;
+    height:590px;
+    background:#2DCC70;
+    background-color:#888;
+}
+.menue ul {
+    list-style: none;
+    width: 1200px;
+    z-index: 2;
+}
+.menue ul li{
+    margin: 0 auto;
+    display:inline-block;
+    width: 33.333333%;
+    font-family: gabriola;
+    font-size: 33px;
+    float: left;
+    text-align: center;
+    color: white
+}
+
+.menue .uniq{
+    background-color: white;
+    color: black
+}
+/*------------------------------*/
+.image{
+    background-image: url(img/dogs_0001_pexels-photo-418831.jpg);
+    background-size: cover;
+    height:500px;
+    margin-top: -534px
+}
+/*----------------------*/
+
+.abc{
+    overflow: hidden;
+    margin-top: -40px;
+    text-transform: capitalize;
+    font-family: system-ui;
+    padding-bottom: 100px;
+    border-bottom: 5px solid grey
+}
+.abc .four{
+    width: 22%;
+    float: left;
+    position: relative;
+    margin-right: 30px;
+    text-align: center;
+    
+}
+.abc .four img{
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    
+}
+.abc .four h2{
+    font-family: Gabriola;
+    font-size: 28px
+}
+.abc .four span{
+    color:#333
+}
+.abc .four p {
+    padding-top: 20px;
+    width: 70%;
+    color: blue;
+    margin: 0 auto;
+    font-family: Gabriola;
+    font-size: 20px;
+    color: #333
+}
+.abc .four div{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    line-height: 22px;
+    font-size: 25px;
+    margin-top: 5px
+}
+/*---------------------------------*/
+
+.album {
+    padding-top: 50px;
+    overflow: hidden;
+    padding-bottom: 100px
+}
+.album .catch, .album .lock{
+    width: 48%;
+    float: left;
+    padding-right:24px 
+}
+.album .catch h2{
+    color: darkturquoise;
+    text-transform: capitalize;
+    font-family: Gabriola;
+    font-size: 50px;
+}
+.album .catch h4{
+    text-transform: capitalize;
+    font-family: Gabriola;
+    font-size: 35px;
+    margin-top: -10px;
+    line-height: 0.8
+}
+.album .catch .info {
+    width: 100%;
+    overflow: hidden
+}
+.album .info img{
+    float: left;
+    padding: 20px 0;
+    padding-right: 20px
+}
+.album .catch .info span{
+    width:100%;
+    text-align: left;
+    color: red;
+    padding-top: 15px;
+    display: block;
+    font-family: system-ui;
+    font-size: 20px;
+    color: dodgerblue;
+    text-transform: capitalize
+}
+.album .catch .info p{
+    color:#999;
+    font-size: 18px
+}
+.album .catch p{
+    color:#333;
+    font-size: 17px
+}
+/*---------*/
+
+.album .lock h2{
+    font-family: system-ui;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: .9;
+    padding-top: 20px;
+    width: 41%;
+    text-align: center;
+    margin-bottom:-50px;
+}
+/*-*/
+.album .lock .info {
+    width: 100%;
+    background-color: gree;
+    overflow: hidden;
+    padding-top: 50px
+}
+.album .lock img{
+    float: left;
+    padding:20px 10px 0px 30px
+}
+.album .lock .info span{
+    width:100%;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    font-family: system-ui;
+    font-size: 20px;
+    color: dodgerblue;
+    text-transform: capitalize
+}
+.album .lock .info p{
+    color:#999;
+    font-size: 18px
+}
+/*--------------------------------------*/
+.album .lock .icon {
+    width: 100%;/*------------------------------------*/
+    overflow: hidden;
+    margin-top: 20px;
+    display: block
+}
+.album .lock .icon .items {
+    width:43%;
+    float: left;
+    background-color:#e8e8e8;
+    margin: 2px ;
+    padding: 5px 5px;
+    text-align: cente;
+    padding-left: 20px;
+}
+.album .lock .icon .items .logo{
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    color: deepskyblue;
+    padding-top: 5px
+}
+.album .lock .icon .items .note{
+    text-align: cente;
+    font-family: gabriola;
+    font-size: 20px;
+    line-height: 1.5; 
+}
+/*-----------------------------------------*/
+
+.footer{
+    background-color: #091b23;
+    padding-bottom: 100px;
+    overflow: hidden;
+    position: relative
+}
+.footer .row {
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.footer .row h2{
+    font-family: Gabriola;
+    font-size: 35px;
+    color: dodgerblue;
+    text-transform: capitalize
+}
+.footer .row p{
+    color: white;
+    font-size: 18px;
+    font-family: system-ui;
+    padding-bottom: 20px
+}
+.footer .row p i{
+    padding-right: 20px;
+    font-size: 20px;
+    color:#999;
+    padding-bottom: 15px
+}
+.footer .last{
+    position: absolute;
+    bottom: 0;
+    background-color:#0a222d;
+    width:980px;
+    display: block;
+    margin: 0px 50px;
+    padding: 5px 20px;
+}
+.footer .last h4{
+    color: #777474;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.footer .last span{
+    color: azure;
+    font-size: 30px;
+    font-family: system-ui;
+    font-weight: 200;
+}
+.footer .last a{
+    color: azure;
+    padding-right: 15px
+}
